@@ -77,8 +77,7 @@ std::wstring TextReaderCpp::ReadText(std::string filePath)
 {
 	std::string str = GetTGMTtesseract()->ReadText(filePath);
 	std::wstring wstr = TGMTutil::String2WString(str);
-	str = TGMTutil::RemoveVNaccent(wstr);
-	return std::wstring(str.begin(), str.end());
+	return wstr;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -86,7 +85,6 @@ std::wstring TextReaderCpp::ReadText(std::string filePath)
 std::wstring TextReaderCpp::ReadText(cv::Mat frame)
 {
 	std::string str = GetTGMTtesseract()->ReadText(frame);
-	std::wstring wstr = TGMTutil::String2WString(str);
-	str = TGMTutil::RemoveVNaccent(wstr);
-	return std::wstring(str.begin(), str.end());
+	std::wstring wstr = TGMTutil::String2WString(str);	
+	return wstr;
 }
