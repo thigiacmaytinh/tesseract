@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C4D7E66-4A15-36AF-A7EC-2752049D0FAA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>IlmImf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LIB\opencv\opencv450\build\3rdparty\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IlmImf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IlmImfd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LIB\opencv\opencv450\build\3rdparty\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IlmImf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IlmImf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\openexr;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmImf;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half;D:\LIB\opencv\opencv450\build\3rdparty\zlib;D:\LIB\opencv\opencv450\sources\3rdparty\zlib;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4018;4099;4100;4101;4127;4189;4245;4305;4389;4512;4701;4702;4706;4800;4334;4244;4267;4456</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\LIB\opencv\opencv450\build\3rdparty\lib\Debug\IlmImfd.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\openexr;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmImf;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half;D:\LIB\opencv\opencv450\build\3rdparty\zlib;D:\LIB\opencv\opencv450\sources\3rdparty\zlib;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\openexr;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmImf;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half;D:\LIB\opencv\opencv450\build\3rdparty\zlib;D:\LIB\opencv\opencv450\sources\3rdparty\zlib;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\openexr;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmImf;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half;D:\LIB\opencv\opencv450\build\3rdparty\zlib;D:\LIB\opencv\opencv450\sources\3rdparty\zlib;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4018;4099;4100;4101;4127;4189;4245;4305;4389;4512;4701;4702;4706;4800;4334;4244;4267;4456</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\LIB\opencv\opencv450\build\3rdparty\lib\Release\IlmImf.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\openexr;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmImf;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half;D:\LIB\opencv\opencv450\build\3rdparty\zlib;D:\LIB\opencv\opencv450\sources\3rdparty\zlib;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\openexr;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmImf;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex;D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half;D:\LIB\opencv\opencv450\build\3rdparty\zlib;D:\LIB\opencv\opencv450\sources\3rdparty\zlib;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+   
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half\eLut.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half\half.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half\halfExport.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half\halfFunction.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half\halfLimits.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half\toFloat.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\Iex.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexBaseExc.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexErrnoExc.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexExport.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexForward.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexMacros.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexMathExc.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexNamespace.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexThrowErrnoExc.h" />
+    <ClInclude Include="ImfAcesFile.h" />
+    <ClInclude Include="ImfArray.h" />
+    <ClInclude Include="ImfAttribute.h" />
+    <ClInclude Include="ImfAutoArray.h" />
+    <ClInclude Include="ImfB44Compressor.h" />
+    <ClInclude Include="ImfBoxAttribute.h" />
+    <ClInclude Include="ImfCRgbaFile.h" />
+    <ClInclude Include="ImfChannelList.h" />
+    <ClInclude Include="ImfChannelListAttribute.h" />
+    <ClInclude Include="ImfCheckedArithmetic.h" />
+    <ClInclude Include="ImfChromaticities.h" />
+    <ClInclude Include="ImfChromaticitiesAttribute.h" />
+    <ClInclude Include="ImfCompositeDeepScanLine.h" />
+    <ClInclude Include="ImfCompression.h" />
+    <ClInclude Include="ImfCompressionAttribute.h" />
+    <ClInclude Include="ImfCompressor.h" />
+    <ClInclude Include="ImfConvert.h" />
+    <ClInclude Include="ImfDeepCompositing.h" />
+    <ClInclude Include="ImfDeepFrameBuffer.h" />
+    <ClInclude Include="ImfDeepImageState.h" />
+    <ClInclude Include="ImfDeepImageStateAttribute.h" />
+    <ClInclude Include="ImfDeepScanLineInputFile.h" />
+    <ClInclude Include="ImfDeepScanLineInputPart.h" />
+    <ClInclude Include="ImfDeepScanLineOutputFile.h" />
+    <ClInclude Include="ImfDeepScanLineOutputPart.h" />
+    <ClInclude Include="ImfDeepTiledInputFile.h" />
+    <ClInclude Include="ImfDeepTiledInputPart.h" />
+    <ClInclude Include="ImfDeepTiledOutputFile.h" />
+    <ClInclude Include="ImfDeepTiledOutputPart.h" />
+    <ClInclude Include="ImfDoubleAttribute.h" />
+    <ClInclude Include="ImfDwaCompressor.h" />
+    <ClInclude Include="ImfDwaCompressorSimd.h" />
+    <ClInclude Include="ImfEnvmap.h" />
+    <ClInclude Include="ImfEnvmapAttribute.h" />
+    <ClInclude Include="ImfExport.h" />
+    <ClInclude Include="ImfFastHuf.h" />
+    <ClInclude Include="ImfFloatAttribute.h" />
+    <ClInclude Include="ImfFloatVectorAttribute.h" />
+    <ClInclude Include="ImfForward.h" />
+    <ClInclude Include="ImfFrameBuffer.h" />
+    <ClInclude Include="ImfFramesPerSecond.h" />
+    <ClInclude Include="ImfGenericInputFile.h" />
+    <ClInclude Include="ImfGenericOutputFile.h" />
+    <ClInclude Include="ImfHeader.h" />
+    <ClInclude Include="ImfHuf.h" />
+    <ClInclude Include="ImfIO.h" />
+    <ClInclude Include="ImfInputFile.h" />
+    <ClInclude Include="ImfInputPart.h" />
+    <ClInclude Include="ImfInputPartData.h" />
+    <ClInclude Include="ImfInputStreamMutex.h" />
+    <ClInclude Include="ImfInt64.h" />
+    <ClInclude Include="ImfIntAttribute.h" />
+    <ClInclude Include="ImfKeyCode.h" />
+    <ClInclude Include="ImfKeyCodeAttribute.h" />
+    <ClInclude Include="ImfLineOrder.h" />
+    <ClInclude Include="ImfLineOrderAttribute.h" />
+    <ClInclude Include="ImfLut.h" />
+    <ClInclude Include="ImfMatrixAttribute.h" />
+    <ClInclude Include="ImfMisc.h" />
+    <ClInclude Include="ImfMultiPartInputFile.h" />
+    <ClInclude Include="ImfMultiPartOutputFile.h" />
+    <ClInclude Include="ImfMultiView.h" />
+    <ClInclude Include="ImfName.h" />
+    <ClInclude Include="ImfNamespace.h" />
+    <ClInclude Include="ImfOpaqueAttribute.h" />
+    <ClInclude Include="ImfOptimizedPixelReading.h" />
+    <ClInclude Include="ImfOutputFile.h" />
+    <ClInclude Include="ImfOutputPart.h" />
+    <ClInclude Include="ImfOutputPartData.h" />
+    <ClInclude Include="ImfOutputStreamMutex.h" />
+    <ClInclude Include="ImfPartHelper.h" />
+    <ClInclude Include="ImfPartType.h" />
+    <ClInclude Include="ImfPixelType.h" />
+    <ClInclude Include="ImfPizCompressor.h" />
+    <ClInclude Include="ImfPreviewImage.h" />
+    <ClInclude Include="ImfPreviewImageAttribute.h" />
+    <ClInclude Include="ImfPxr24Compressor.h" />
+    <ClInclude Include="ImfRational.h" />
+    <ClInclude Include="ImfRationalAttribute.h" />
+    <ClInclude Include="ImfRgba.h" />
+    <ClInclude Include="ImfRgbaFile.h" />
+    <ClInclude Include="ImfRgbaYca.h" />
+    <ClInclude Include="ImfRle.h" />
+    <ClInclude Include="ImfRleCompressor.h" />
+    <ClInclude Include="ImfScanLineInputFile.h" />
+    <ClInclude Include="ImfSimd.h" />
+    <ClInclude Include="ImfStandardAttributes.h" />
+    <ClInclude Include="ImfStdIO.h" />
+    <ClInclude Include="ImfStringAttribute.h" />
+    <ClInclude Include="ImfStringVectorAttribute.h" />
+    <ClInclude Include="ImfSystemSpecific.h" />
+    <ClInclude Include="ImfTestFile.h" />
+    <ClInclude Include="ImfThreading.h" />
+    <ClInclude Include="ImfTileDescription.h" />
+    <ClInclude Include="ImfTileDescriptionAttribute.h" />
+    <ClInclude Include="ImfTileOffsets.h" />
+    <ClInclude Include="ImfTiledInputFile.h" />
+    <ClInclude Include="ImfTiledInputPart.h" />
+    <ClInclude Include="ImfTiledMisc.h" />
+    <ClInclude Include="ImfTiledOutputFile.h" />
+    <ClInclude Include="ImfTiledOutputPart.h" />
+    <ClInclude Include="ImfTiledRgbaFile.h" />
+    <ClInclude Include="ImfTimeCode.h" />
+    <ClInclude Include="ImfTimeCodeAttribute.h" />
+    <ClInclude Include="ImfVecAttribute.h" />
+    <ClInclude Include="ImfVersion.h" />
+    <ClInclude Include="ImfWav.h" />
+    <ClInclude Include="ImfXdr.h" />
+    <ClInclude Include="ImfZip.h" />
+    <ClInclude Include="ImfZipCompressor.h" />
+    <ClInclude Include="b44ExpLogTable.h" />
+    <ClInclude Include="dwaLookups.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThread.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadExport.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadForward.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadMutex.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadNamespace.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadPool.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadSemaphore.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathBox.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathBoxAlgo.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathColor.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathColorAlgo.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathEuler.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathExc.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathExport.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathForward.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathFrame.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathFrustum.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathFrustumTest.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathFun.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathHalfLimits.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathInt64.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathInterval.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathLimits.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathLine.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathLineAlgo.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathMath.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathMatrix.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathMatrixAlgo.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathNamespace.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathPlane.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathPlatform.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathQuat.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathRandom.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathRoots.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathShear.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathSphere.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathVec.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathVecAlgo.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\build\3rdparty\openexr\IlmBaseConfig.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\build\3rdparty\openexr\OpenEXRConfig.h" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Half\half.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexBaseExc.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Iex\IexThrowErrnoExc.cpp" />
+    <ClCompile Include="ImfAcesFile.cpp" />
+    <ClCompile Include="ImfAttribute.cpp" />
+    <ClCompile Include="ImfB44Compressor.cpp" />
+    <ClCompile Include="ImfBoxAttribute.cpp" />
+    <ClCompile Include="ImfCRgbaFile.cpp" />
+    <ClCompile Include="ImfChannelList.cpp" />
+    <ClCompile Include="ImfChannelListAttribute.cpp" />
+    <ClCompile Include="ImfChromaticities.cpp" />
+    <ClCompile Include="ImfChromaticitiesAttribute.cpp" />
+    <ClCompile Include="ImfCompositeDeepScanLine.cpp" />
+    <ClCompile Include="ImfCompressionAttribute.cpp" />
+    <ClCompile Include="ImfCompressor.cpp" />
+    <ClCompile Include="ImfConvert.cpp" />
+    <ClCompile Include="ImfDeepCompositing.cpp" />
+    <ClCompile Include="ImfDeepFrameBuffer.cpp" />
+    <ClCompile Include="ImfDeepImageStateAttribute.cpp" />
+    <ClCompile Include="ImfDeepScanLineInputFile.cpp" />
+    <ClCompile Include="ImfDeepScanLineInputPart.cpp" />
+    <ClCompile Include="ImfDeepScanLineOutputFile.cpp" />
+    <ClCompile Include="ImfDeepScanLineOutputPart.cpp" />
+    <ClCompile Include="ImfDeepTiledInputFile.cpp" />
+    <ClCompile Include="ImfDeepTiledInputPart.cpp" />
+    <ClCompile Include="ImfDeepTiledOutputFile.cpp" />
+    <ClCompile Include="ImfDeepTiledOutputPart.cpp" />
+    <ClCompile Include="ImfDoubleAttribute.cpp" />
+    <ClCompile Include="ImfDwaCompressor.cpp" />
+    <ClCompile Include="ImfEnvmap.cpp" />
+    <ClCompile Include="ImfEnvmapAttribute.cpp" />
+    <ClCompile Include="ImfFastHuf.cpp" />
+    <ClCompile Include="ImfFloatAttribute.cpp" />
+    <ClCompile Include="ImfFloatVectorAttribute.cpp" />
+    <ClCompile Include="ImfFrameBuffer.cpp" />
+    <ClCompile Include="ImfFramesPerSecond.cpp" />
+    <ClCompile Include="ImfGenericInputFile.cpp" />
+    <ClCompile Include="ImfGenericOutputFile.cpp" />
+    <ClCompile Include="ImfHeader.cpp" />
+    <ClCompile Include="ImfHuf.cpp" />
+    <ClCompile Include="ImfIO.cpp" />
+    <ClCompile Include="ImfInputFile.cpp" />
+    <ClCompile Include="ImfInputPart.cpp" />
+    <ClCompile Include="ImfInputPartData.cpp" />
+    <ClCompile Include="ImfIntAttribute.cpp" />
+    <ClCompile Include="ImfKeyCode.cpp" />
+    <ClCompile Include="ImfKeyCodeAttribute.cpp" />
+    <ClCompile Include="ImfLineOrderAttribute.cpp" />
+    <ClCompile Include="ImfLut.cpp" />
+    <ClCompile Include="ImfMatrixAttribute.cpp" />
+    <ClCompile Include="ImfMisc.cpp" />
+    <ClCompile Include="ImfMultiPartInputFile.cpp" />
+    <ClCompile Include="ImfMultiPartOutputFile.cpp" />
+    <ClCompile Include="ImfMultiView.cpp" />
+    <ClCompile Include="ImfOpaqueAttribute.cpp" />
+    <ClCompile Include="ImfOutputFile.cpp" />
+    <ClCompile Include="ImfOutputPart.cpp" />
+    <ClCompile Include="ImfOutputPartData.cpp" />
+    <ClCompile Include="ImfPartType.cpp" />
+    <ClCompile Include="ImfPizCompressor.cpp" />
+    <ClCompile Include="ImfPreviewImage.cpp" />
+    <ClCompile Include="ImfPreviewImageAttribute.cpp" />
+    <ClCompile Include="ImfPxr24Compressor.cpp" />
+    <ClCompile Include="ImfRational.cpp" />
+    <ClCompile Include="ImfRationalAttribute.cpp" />
+    <ClCompile Include="ImfRgbaFile.cpp" />
+    <ClCompile Include="ImfRgbaYca.cpp" />
+    <ClCompile Include="ImfRle.cpp" />
+    <ClCompile Include="ImfRleCompressor.cpp" />
+    <ClCompile Include="ImfScanLineInputFile.cpp" />
+    <ClCompile Include="ImfStandardAttributes.cpp" />
+    <ClCompile Include="ImfStdIO.cpp" />
+    <ClCompile Include="ImfStringAttribute.cpp" />
+    <ClCompile Include="ImfStringVectorAttribute.cpp" />
+    <ClCompile Include="ImfSystemSpecific.cpp" />
+    <ClCompile Include="ImfTestFile.cpp" />
+    <ClCompile Include="ImfThreading.cpp" />
+    <ClCompile Include="ImfTileDescriptionAttribute.cpp" />
+    <ClCompile Include="ImfTileOffsets.cpp" />
+    <ClCompile Include="ImfTiledInputFile.cpp" />
+    <ClCompile Include="ImfTiledInputPart.cpp" />
+    <ClCompile Include="ImfTiledMisc.cpp" />
+    <ClCompile Include="ImfTiledOutputFile.cpp" />
+    <ClCompile Include="ImfTiledOutputPart.cpp" />
+    <ClCompile Include="ImfTiledRgbaFile.cpp" />
+    <ClCompile Include="ImfTimeCode.cpp" />
+    <ClCompile Include="ImfTimeCodeAttribute.cpp" />
+    <ClCompile Include="ImfVecAttribute.cpp" />
+    <ClCompile Include="ImfVersion.cpp" />
+    <ClCompile Include="ImfWav.cpp" />
+    <ClCompile Include="ImfZip.cpp" />
+    <ClCompile Include="ImfZipCompressor.cpp" />
+    <ClCompile Include="dwaLookups.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThread.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadMutex.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadMutexWin32.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadPool.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadSemaphore.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadSemaphoreWin32.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\IlmThread\IlmThreadWin32.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathBox.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathColorAlgo.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathFun.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathMatrixAlgo.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathRandom.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathShear.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\sources\3rdparty\openexr\Imath\ImathVec.cpp" />
+  </ItemGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
