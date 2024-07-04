@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\lib\TGMTcpp\src\stdafx.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTdebugger.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTfile.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTimage.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="Winmain.cpp" />
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTbrightness.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTcolor.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTConfig.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTdraw.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMThardware.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTshape.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTtransform.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTutil.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTblob.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTmorphology.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\TGMTcpp\src\TGMTtesseract.cpp">
+      <Filter>TGMT</Filter>
+    </ClCompile>
+    <ClCompile Include="TextReaderCpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\lib\TGMTcpp\src\stdafx.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTdebugger.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTfile.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTimage.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTbrightness.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTcolor.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTConfig.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTdraw.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMThardware.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTshape.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTtransform.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTutil.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTblob.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTmorphology.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\TGMTcpp\src\TGMTtesseract.h">
+      <Filter>TGMT</Filter>
+    </ClInclude>
+    <ClInclude Include="TextReaderCpp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TGMT">
+      <UniqueIdentifier>{644e22b0-4a7c-4c92-bb41-6a4007770464}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
