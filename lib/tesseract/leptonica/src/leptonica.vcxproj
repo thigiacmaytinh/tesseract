@@ -35,7 +35,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -45,7 +45,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -87,7 +87,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\opencv320\3rdparty\libjpeg;..\..\..\opencv320\3rdparty\libpng;..\..\..\opencv320\3rdparty\libtiff;..\..\..\opencv320\3rdparty\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\opencv342\3rdparty\libjpeg-turbo;..\..\..\opencv342\3rdparty\libpng;..\..\..\opencv342\3rdparty\libtiff;..\..\..\opencv342\3rdparty\libwebp;..\..\..\opencv342\3rdparty\libjpeg-turbo\src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -128,12 +128,12 @@
     </ProjectReference>
     <Lib>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\3rdparty\compiled_lib\Debug;..\..\..\opencv320\3rdparty\compiled_lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\3rdparty\compiled_lib\Debug;..\..\..\opencv342\3rdparty\compiled_lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\opencv320\3rdparty\libjpeg;..\..\..\opencv320\3rdparty\libpng;..\..\..\opencv320\3rdparty\libtiff;..\..\..\opencv320\3rdparty\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\opencv450\3rdparty\libjpeg-turbo;..\..\..\opencv450\3rdparty\libpng;..\..\..\opencv450\3rdparty\libtiff;..\..\..\opencv450\3rdparty\libwebp;..\..\..\opencv450\3rdparty\libjpeg-turbo\src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -174,12 +174,12 @@
     </ProjectReference>
     <Lib>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\3rdparty\compiled_lib\Debug;..\..\..\opencv320\3rdparty\compiled_lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\3rdparty\compiled_lib\Debug;..\..\..\opencv342\3rdparty\compiled_lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\opencv320\3rdparty\libjpeg;..\..\..\opencv320\3rdparty\libpng;..\..\..\opencv320\3rdparty\libtiff;..\..\..\opencv320\3rdparty\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\opencv342\3rdparty\libjpeg-turbo;..\..\..\opencv342\3rdparty\libpng;..\..\..\opencv342\3rdparty\libtiff;..\..\..\opencv342\3rdparty\libwebp;..\..\..\opencv342\3rdparty\libjpeg-turbo\src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -223,7 +223,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\opencv320\3rdparty\libjpeg;..\..\..\opencv320\3rdparty\libpng;..\..\..\opencv320\3rdparty\libtiff;..\..\..\opencv320\3rdparty\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\opencv450\3rdparty\libjpeg-turbo;..\..\..\opencv450\3rdparty\libpng;..\..\..\opencv450\3rdparty\libtiff;..\..\..\opencv450\3rdparty\libwebp;..\..\..\opencv450\3rdparty\libjpeg-turbo\src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>

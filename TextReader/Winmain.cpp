@@ -12,7 +12,6 @@
 #include "TGMTutil.h"
 #include "TGMTConfig.h"
 #include "TextReaderCpp.h"
-#include "TGMTdraw.h"
 #include "TGMTtesseract.h"
 //#include <fcntl.h>
 //#include <io.h>

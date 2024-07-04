@@ -97,9 +97,18 @@ typedef uintptr_t l_uintptr_t;
  *  non-functioning stubs to be linked.
  */
 
+#include "cvconfig.h"
+#ifdef HAVE_JPEG
 #define  HAVE_LIBJPEG     1
+#endif
+
+#ifdef HAVE_PNG
 #define  HAVE_LIBPNG      1
+#endif
+
+#ifdef HAVE_WEBP
 #define  HAVE_LIBWEBP     1
+#endif
 
 #if !defined(HAVE_CONFIG_H) && !defined(ANDROID_BUILD) && !defined(OS_IOS)
 #define  HAVE_LIBJPEG     1
