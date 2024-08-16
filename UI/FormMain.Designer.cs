@@ -38,11 +38,12 @@
             this.timerRefresh = new System.Windows.Forms.Timer(this.components);
             this.panelLogo = new System.Windows.Forms.Panel();
             this.btnImage = new System.Windows.Forms.Button();
-            this.btnWebcam = new System.Windows.Forms.Button();
             this.btnSettings = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
+            this.panelLogo.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,6 +87,7 @@
             // panelLogo
             // 
             this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(72)))), ((int)(((byte)(51)))));
+            this.panelLogo.Controls.Add(this.label1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
@@ -112,27 +114,6 @@
             this.btnImage.UseVisualStyleBackColor = true;
             this.btnImage.Click += new System.EventHandler(this.btnImage_Click);
             // 
-            // btnWebcam
-            // 
-            this.btnWebcam.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnWebcam.FlatAppearance.BorderSize = 0;
-            this.btnWebcam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWebcam.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWebcam.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnWebcam.Image = global::UI.Properties.Resources.webcam_32;
-            this.btnWebcam.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnWebcam.Location = new System.Drawing.Point(0, 134);
-            this.btnWebcam.Name = "btnWebcam";
-            this.btnWebcam.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnWebcam.Size = new System.Drawing.Size(200, 60);
-            this.btnWebcam.TabIndex = 2;
-            this.btnWebcam.Text = "   Webcam";
-            this.btnWebcam.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnWebcam.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnWebcam.UseVisualStyleBackColor = true;
-            this.btnWebcam.Visible = false;
-            this.btnWebcam.Click += new System.EventHandler(this.btnWebcam_Click);
-            // 
             // btnSettings
             // 
             this.btnSettings.Dock = System.Windows.Forms.DockStyle.Top;
@@ -142,7 +123,7 @@
             this.btnSettings.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnSettings.Image = global::UI.Properties.Resources.cog;
             this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSettings.Location = new System.Drawing.Point(0, 194);
+            this.btnSettings.Location = new System.Drawing.Point(0, 134);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnSettings.Size = new System.Drawing.Size(200, 60);
@@ -157,7 +138,6 @@
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.panelMenu.Controls.Add(this.btnSettings);
-            this.panelMenu.Controls.Add(this.btnWebcam);
             this.panelMenu.Controls.Add(this.btnImage);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -174,6 +154,17 @@
             this.panelDesktop.Size = new System.Drawing.Size(987, 570);
             this.panelDesktop.TabIndex = 17;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(21, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(135, 31);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Tesseract";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,10 +176,11 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
             this.Text = "Screen reader";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.panelLogo.ResumeLayout(false);
+            this.panelLogo.PerformLayout();
             this.panelMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -203,10 +195,10 @@
         private System.Windows.Forms.Timer timerRefresh;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Button btnImage;
-        private System.Windows.Forms.Button btnWebcam;
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.ToolStripProgressBar progressBar1;
+        private System.Windows.Forms.Label label1;
     }
 }

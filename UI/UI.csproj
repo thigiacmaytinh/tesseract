@@ -86,12 +86,6 @@
     <Compile Include="FormOption.Designer.cs">
       <DependentUpon>FormOption.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormWebcam.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormWebcam.Designer.cs">
-      <DependentUpon>FormWebcam.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,9 +100,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormOption.resx">
       <DependentUpon>FormOption.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormWebcam.resx">
-      <DependentUpon>FormWebcam.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
