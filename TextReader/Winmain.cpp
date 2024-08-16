@@ -52,7 +52,7 @@ void _tmain(int argc, _TCHAR* argv[])
 		std::string str = GetTGMTtesseract()->ReadText(f);
 		
 		std::wstring wstr = TGMTutil::String2WString(str);
-		std::wcout << wstr << "\n";
+		PrintUnicode(wstr.c_str());
 		
 #ifdef _DEBUG
 		TGMTfile::WriteToFileAsync(TGMTfile::GetFileNameWithoutExtension(f) + ".txt", str, false);
