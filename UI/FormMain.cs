@@ -100,13 +100,6 @@ namespace UI
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        private void btnWebcam_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(FormWebcam.GetInstance(), sender);
-        }
-
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
         private void btnImage_Click(object sender, EventArgs e)
         {
             OpenChildForm(FormImage.GetInstance(), sender);
@@ -262,13 +255,5 @@ namespace UI
                 progressBar1.Value = progressBar1.Minimum;
             progressBar1.Value += 1;
         }
-
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            FormWebcam.GetInstance().StopAllCamera();
-        }
-        
     }
 }
