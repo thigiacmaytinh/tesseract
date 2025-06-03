@@ -38,7 +38,7 @@
     <ProjectGuid>{F4793B5E-B685-499B-A290-F1916EC9752C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>FaceRecognition</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <ProjectName>TextReader</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
