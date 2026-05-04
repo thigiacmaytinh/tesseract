@@ -159,13 +159,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\lib\TGMTbridge\src\TGMTbridge.h" />
-    <ClInclude Include="..\lib\TGMTbridge\src\TGMTbridgeRegistry.h" />
     <ClInclude Include="..\lib\TGMTbridge\src\TGMTbridgeUtil.h" />
     <ClInclude Include="TextReaderMgr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\lib\TGMTbridge\src\TGMTbridge.cpp" />
-    <ClCompile Include="..\lib\TGMTbridge\src\TGMTbridgeRegistry.cpp" />
     <ClCompile Include="..\lib\TGMTbridge\src\TGMTbridgeUtil.cpp" />
     <ClCompile Include="TextReaderMgr.cpp" />
   </ItemGroup>

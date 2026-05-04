@@ -13,9 +13,6 @@
       <Filter>TGMTbridge</Filter>
     </ClInclude>
     <ClInclude Include="TextReaderMgr.h" />
-    <ClInclude Include="..\lib\TGMTbridge\src\TGMTbridgeRegistry.h">
-      <Filter>TGMTbridge</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\lib\TGMTbridge\src\TGMTbridge.cpp">
@@ -25,8 +22,5 @@
       <Filter>TGMTbridge</Filter>
     </ClCompile>
     <ClCompile Include="TextReaderMgr.cpp" />
-    <ClCompile Include="..\lib\TGMTbridge\src\TGMTbridgeRegistry.cpp">
-      <Filter>TGMTbridge</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
