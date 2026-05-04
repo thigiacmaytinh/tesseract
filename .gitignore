@@ -1,0 +1,7 @@
+.vs/
+lib/opencv450/3rdparty/libjpeg-turbo/libjpeg-turbo.dir/
+lib/opencv450/3rdparty/libpng/libpng.dir/
+lib/
+TextReader/obj/
+TextReaderMgr/x64/
+UI/obj/
